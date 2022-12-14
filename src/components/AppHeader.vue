@@ -86,9 +86,7 @@
             </nav>
 
         </div>  
-        <div class="stacco-sotto">
-
-        </div>
+       
   </header>
 
 
@@ -112,7 +110,9 @@
         margin-bottom: 20px;
         @include between();
     }
-
+    .jumbo {
+        
+    }
     .logo-section {
         height: 80px;
     }
