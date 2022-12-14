@@ -99,7 +99,7 @@
 @use '../styles/partials/mixins' as *;
     header {
         text-align: center;
-        height: 100px;
+        height: 100%;
     }
 
     .stacco-sopra, .stacco-sotto {
@@ -108,14 +108,13 @@
         background-color: #1c1c1c;
     }
     .container {
-        height: 100%;
+        height: 100px;
         margin-bottom: 20px;
         @include between();
     }
 
     .logo-section {
         height: 80px;
-        width: 100px
     }
 
     .nav-section {

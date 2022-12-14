@@ -74,7 +74,7 @@
 section {
     background-color: #0282f9;
     color: white;
-    height: 100px;
+    height: 150px;
 }
 .container {
     height: 100%;
