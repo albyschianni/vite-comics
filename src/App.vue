@@ -4,6 +4,7 @@ import AppMiddleVue from './components/AppMiddle.vue';
 import AppUpFooter from './components/AppUpFooter.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppContentMovieVue from './components/AppContentMovie.vue';
+import AppJumboVue from './components/AppJumbo.vue';
 
 export default{
   name: 'App',
@@ -12,13 +13,15 @@ export default{
     AppMiddleVue,
     AppUpFooter,
     AppFooter,
-    AppContentMovieVue
+    AppContentMovieVue,
+    AppJumboVue
   }
 }
 </script>
 
 <template>
   <AppHeader />
+  <AppJumboVue />
   <AppContentMovieVue />
   <AppMiddleVue />
 

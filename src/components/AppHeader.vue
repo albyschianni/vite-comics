@@ -131,6 +131,7 @@
                 display: inline-block;
                 text-decoration: none;
                 transition: background 0.3s;
+                font-size: 13px;
 
                 &.active,
                 &:hover {
